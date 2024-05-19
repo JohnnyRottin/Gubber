@@ -2,7 +2,7 @@ import random
 
 def Greeting():
     name = input("what is your name?\n")
-    print("Hello, " + name)
+    print("Hello, " + name + ", you silly person you!")
 
 def Guess_a_number():
     guess = input("Guess a number between 1-5.\n>")

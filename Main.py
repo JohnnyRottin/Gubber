@@ -1,8 +1,28 @@
 import random
 
+# define a function named 'getSillyGreeting'
+    # use the random.randint(1,2) function to get a random number between 1 and 2 and store it in a variable named 'num'
+    # open a switch statement with the 'match' keyword
+        # handle the case for 1
+            # return some silly greeting string
+        # handle the case for 2
+            # return some other silly greeting string
+
+# Here's an incomplete example of the 'getSillyGreeting' function
+def getSillyGreeting():
+    num = 2 # <- use the random library to get a random number
+    match num:
+        case 1:
+            return 'you silly person you!' # <- change the silly greeting if you want
+        case 2:
+            return '...' # <- some other silly greeting
+        # add more cases if you want
+        case _:
+            return '...' # <- some default silly greeting
+
 def Greeting():
     name = input("What is your name?\n")
-    print("Hello, " + name + ", you silly person you!")
+    print("Hello, " + name + ", you silly person you!") # <-- call the getSillyGreeting function here instead of the "literal string", ", you silly person you"
 
 def Guess_a_number():
     guess = input("Guess a number between 1-5.\n>")

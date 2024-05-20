@@ -10,19 +10,19 @@ import random
 
 # Here's an incomplete example of the 'getSillyGreeting' function
 def getSillyGreeting():
-    num = 2 # <- use the random library to get a random number
+    num = {random.randint(1,3)} # <- use the random library to get a random number
     match num:
         case 1:
             return 'you silly person you!' # <- change the silly greeting if you want
         case 2:
-            return '...' # <- some other silly greeting
+            return 'you nob head you!' # <- some other silly greeting
         # add more cases if you want
-        case _:
-            return '...' # <- some default silly greeting
+        case 3:
+            return 'you flapjack you!' # <- some default silly greeting
 
 def Greeting():
     name = input("What is your name?\n")
-    print("Hello, " + name + ", you silly person you!") # <-- call the getSillyGreeting function here instead of the "literal string", ", you silly person you"
+    print("Hello, " + name + getSillyGreeting) # <-- call the getSillyGreeting function here instead of the "literal string", ", you silly person you"
 
 def Guess_a_number():
     guess = input("Guess a number between 1-5.\n>")

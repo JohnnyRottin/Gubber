@@ -1,7 +1,7 @@
 import random
 
 def Greeting():
-    name = input("what is your name?\n")
+    name = input("What is your name?\n")
     print("Hello, " + name + ", you silly person you!")
 
 def Guess_a_number():
@@ -13,7 +13,7 @@ def Guess_a_number():
         print("WRONG!")
         Guess_a_number()
     else :
-        print("Okay quitter!")
+        print("Okay, quitter!")
 
 Greeting()
 Guess_a_number()

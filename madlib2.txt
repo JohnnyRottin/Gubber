@@ -1,0 +1,5 @@
+Everyday my {{Animal (Singular)}} wants to {{Verb (Present tense)}}, and it's making me {{Adjective}}.
+My {{Noun (Singular)}} and I have a plan. We will {{Verb (Present tense)}} up to {{Noun (place)}} and
+{{Adverb}} {{Adjective (Present tense)}} at the {{Noun (Plural)}}. It is said that they will grant one
+{{Adjective}} wish to the {{Adjective}} {{Noun}} that visits them. That is how I plan to {{Verb (Past tense)}}.
+I hope it works. If not, I'll just {{Verb (Present tense)}}.
